@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+}
+
+.logo_matcha_tea {
+    height: 25vh;
+}
+
+.title-header {
+    color: #51895d;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    height: 85vh;
+    width: 10vw;
+    background-color: #51895d;
+    writing-mode: vertical-lr;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    transform: rotate(180deg);
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+
+footer {
+    height: 30vh;
+    border-top: 2px solid #51895d;
+    display: flex;
+}
+
+.navbar-footer a {
+    text-decoration: none;
+}
