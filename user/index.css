@@ -55,6 +55,11 @@ h2 {
     border-radius: 2em;
     margin-top: 1em;
     border: none;
+    text-decoration: none;
+}
+
+.article-button:visited {
+    text-decoration: none;
 }
 
 .article-button:hover {
