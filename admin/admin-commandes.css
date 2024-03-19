@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+
+.home {
+  display: flex;
+}
+
+.main-display {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+}
+
+.main-display .wrapper .product {
+  display: flex;
+}
+
+.main-display .wrapper .product img {
+  height: 4em;
+  width: 4em;
+}
+
+.main-display .wrapper .product .details {
+  height: 4em;
+  width: 4em;
+}
+
+.main-display .wrapper .product .wrapperButton {
+  display: flex;
+  flex-direction: column;
+}

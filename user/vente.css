@@ -13,7 +13,6 @@ article {
   overflow: scroll;
   scrollbar-width: none;
   justify-content: space-between;
-  /* padding-top: 3em; */
 }
 
 nav a {
