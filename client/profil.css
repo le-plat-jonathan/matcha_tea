@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+
+article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(176, 176, 176);
+}
+
+article .divImg img {
+  height: 10em;
+  width: 10em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  background-color: inherit;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+form div label {
+  color: white;
+}
+
+form div input {
+  border: none;
+  border-bottom: 0.1em white solid;
+  padding: 1em;
+  text-align: center;
+  background-color: inherit;
+}
+
+form div input::placeholder {
+  color: black;
+}
+
+.home {
+  display: flex;
+}
+
+.main-display {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 90vw;
+}
