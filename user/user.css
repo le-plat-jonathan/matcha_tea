@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+
 * {
     margin: 0;
 }
@@ -5,16 +8,18 @@
 header {
     display: flex;
     justify-content: space-between;
-    height: 15vh;
+    height: 10vh;
     align-items: center;
 }
 
 .logo_matcha_tea {
-    height: 25vh;
+    height: 20vh;
 }
 
-.title-header {
+h1 {
     color: #51895d;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 500;
 }
 
 
@@ -24,7 +29,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 5em;
-    height: 85vh;
+    height: 90vh;
     width: 10vw;
     background-color: #51895d;
     writing-mode: vertical-lr;
@@ -37,14 +42,18 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #555;
+    text-decoration: underline white;
+    border-radius: 2em;
 }
-
 
 footer {
     height: 30vh;
-    border-top: 2px solid #51895d;
     display: flex;
+    justify-content: space-between;
+}
+
+.navbar-footer a:hover {
+    text-decoration: underline;
 }
 
 .navbar-footer a {
