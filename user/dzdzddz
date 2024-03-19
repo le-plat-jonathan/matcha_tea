@@ -1,0 +1,48 @@
+<main>
+    <div class="wrapperImage">
+    <div class="image">
+        <img src="/images/image.equipe/png-transparent-suit-blazer-sport-coat-button-clothing-costume-homme-blue-fashion-business-thumbnail (1).png" alt="">
+        <h3>Maxime</h3>
+        <p>
+            PDG de Matcha Tea
+        </p>
+        <img src="/images/image.equipe/homme-souriant-mains-hanches_1187-3017_1 (1).png" alt="">
+        <h3>Sébastien</h3>
+        <p>
+            Responsable commercial et marketing
+        </p>
+    </div>
+    <img src="/images/image.equipe/man_PNG6531 (1).png" alt="">
+        <h3>Arnaud</h3>
+            <p>Responsable de production</p>
+    <img src="/images/image.equipe/Young-Man-PNG-Image (1).png"alt="">
+        <h3>Lucas</h3>
+    <p>Rédactionnel et graphisme</p>
+</div>
+</div>
+</main>
+
+
+
+.wrapperImage{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    height: 20em; /* Ajustez la hauteur selon vos besoins */
+}
+
+.image img {
+    display: grid;
+    place-items: center;
+    max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+    max-height: 100%; /* Assurez-vous que les images ne dépassent pas la hauteur de leur conteneur */
+}
+
