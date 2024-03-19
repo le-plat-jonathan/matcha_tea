@@ -1,0 +1,111 @@
+/* importation des différents fonts via google */
+
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+
+
+/* styles pour le contenu principal */
+
+.home {
+    display: flex;
+}
+.main-display {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+
+/*  style de la zone article et des contenus de section avec histoire de Matcha Tea */
+
+article {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    height: 50vh; 
+    background-image: url('/Images/Images_jpeg/backgroundmatcha1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    opacity: 0.8;
+    overflow: scroll; 
+    scrollbar-width: none;
+    padding: 20px; 
+}
+
+.contenu {
+    width: 30%; 
+    margin: 0 10px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    backdrop-filter: brightness(80%);
+}
+
+/* Modification du style de la balise <h2> pour chaque contenu */
+.contenu > h2 {
+    font-family: "Rubik Dirt", system-ui;
+    color: #51895d; 
+    margin-bottom: 10px; 
+    font-weight: 500;
+}
+
+/* Style pour les sous-titres dans chaque contenu */
+.contenu > .sous-titre {
+    font-family: "Play", sans-serif; 
+    text-align: left; 
+    font-size: 1.2em; 
+    color: #ffffff; 
+    margin-bottom: 5px; 
+}
+
+/* Style pour la description dans chaque contenu */
+.contenu > .description {
+    
+    font-size: 0.9em; 
+    text-align: justify; 
+    line-height: 1.6; 
+}
+
+/* style div qui contient les sections précédentes ainsi que le .video-container pour permettre de placer la video sous les contenus textes */
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+
+/* style et mise en page du video-container et de la video*/
+
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.video {
+    width:50%;
+    height: 50vh;
+}
+
+/* zone avec les media queries */
+
+@media screen and (max-width: 480px) {
+
+    .main-display {
+        width: 100vw;
+    }
+
+    article {
+        height: 100%;
+        flex-direction: column;
+    }
+
+}
+
