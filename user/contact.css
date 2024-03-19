@@ -1,0 +1,107 @@
+.formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  height: 55vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(176, 176, 176);
+}
+
+.formulaire .left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formulaire .left p {
+  color: #fff;
+  width: 80%;
+}
+
+.formulaire .hr {
+  width: 2%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.formulaire .hr:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: -1600%;
+  top: 50%;
+  border-top: 4px solid white;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.formulaire .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+}
+
+.formulaire .right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 15em;
+}
+
+.formulaire .right form input {
+  background-color: rgb(176, 176, 176);
+  border: none;
+  border-bottom: 0.1em white solid;
+  padding: 1em;
+  text-align: center;
+}
+
+.formulaire .right form input::placeholder {
+  color: black;
+}
+
+.formulaire .right button {
+  width: 60%;
+  height: 3em;
+  background-color: rgb(176, 176, 176);
+  border: 0.1em solid #fff;
+  color: #fff;
+}
+
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0 2em 0;
+  color: #fff;
+}
+
+.formulaire form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images-article {
+  height: 50vh;
+  margin: 1em;
+  width: 20vw;
+}
+
+.home {
+  display: flex;
+}
+
+.main-display {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+

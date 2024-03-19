@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+header h1 {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 500;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  height: 55vh;
+  background-color: black;
+  overflow: scroll;
+  scrollbar-width: none;
+  justify-content: space-between;
+  /* padding-top: 3em; */
+}
+
+nav a {
+  font-family: "Play", sans-serif;
+}
+
+.images-article {
+  margin: 1em;
+  height: calc(100% / 2 - 2em);
+  width: calc(100% / 5);
+  object-fit: cover;
+}
+
+.home {
+  display: flex;
+}
+
+.main-display {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
