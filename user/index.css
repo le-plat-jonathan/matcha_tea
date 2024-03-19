@@ -28,7 +28,7 @@ article {
     width: 90vw;
 }
 
-.vitrine-1 {
+.vitrine {
     color: white;
     display: flex;
     flex-direction: column;
@@ -59,4 +59,26 @@ h2 {
 
 .article-button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .main-display {
+        width: 100vw;
+    }
+
+    article {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .vitrine {
+        margin: 1em 0 0 0 ;
+        width: 90%;
+    }
+
+    .images-article {
+        margin: 0;
+        width: 100%;
+    }
 }
