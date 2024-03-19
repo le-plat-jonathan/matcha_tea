@@ -52,7 +52,21 @@
   height: 15em;
 }
 
-.formulaire .right form input {
+select {
+  color: white;
+  border: 0.1em solid #fff;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(176, 176, 176);
+  width: 40%;
+  padding: 0.8em;
+}
+
+option {
+  color: white;
+}
+
+.formulaire .right form input{
   background-color: rgb(176, 176, 176);
   border: none;
   border-bottom: 0.1em white solid;
@@ -61,11 +75,11 @@
 }
 
 .formulaire .right form input::placeholder {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .formulaire .right button {
-  width: 60%;
+  width: 40%;
   height: 3em;
   background-color: rgb(176, 176, 176);
   border: 0.1em solid #fff;
@@ -77,7 +91,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 2em 0 2em 0;
+  margin: 1em 0 2em 0;
   color: #fff;
 }
 
