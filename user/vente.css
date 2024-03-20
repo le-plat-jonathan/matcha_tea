@@ -35,3 +35,23 @@ nav a {
   flex-direction: column;
   width: 90vw;
 }
+
+@media screen and (max-width: 480px) {
+
+  article {
+      height: auto;
+  }
+
+  .vitrine {
+      width: 90%;
+      margin: 0;
+  }
+
+  .main-display {
+      width: 100%;
+  }
+
+  .images-article {
+      width: 90%;
+  }
+}

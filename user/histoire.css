@@ -23,7 +23,7 @@ article {
     flex-direction: column; 
     justify-content: space-between; 
     align-items: flex-start; 
-    height: 50vh; 
+    height: 60vh; 
     background-image: url('/Images/Images_jpeg/backgroundmatcha.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
