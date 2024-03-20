@@ -2,19 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
 
 article {
-  display: flex;
-  flex-wrap: wrap;
-  height: 60vh;
-  background-color: black;
-  overflow: scroll;
-  scrollbar-width: none;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    background-color: black;
+    overflow: scroll;
+    scrollbar-width: none;
+    justify-content: space-between;
 }
 
 .images-article {
-  height: 55vh;
-  margin: 1em;
-  width: 20vw;
+    height: 55vh;
+    margin: 1em;
+    width: 20vw;
 }
 
 .home {
@@ -27,35 +27,35 @@ article {
   width: 90vw;
 }
 
-.vitrine-1 {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  width: 25vw;
-  margin: 0 1em 1em 1em;
-  align-items: center;
+.vitrine {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 0 1em 1em 1em;
+    align-items: center;
 }
 
 p {
-  text-align: justify;
+    text-align: justify;
 }
 
 h2 {
-  margin-bottom: 0.5em;
-  color: #51895d;
-  font-family: "Rubik Dirt", system-ui;
-  font-weight: 500;
+    margin-bottom: 0.5em;
+    color: #51895d;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 500;
 }
 
 .article-button {
-  background-color: #51895d;
-  color: white;
-  padding: 1em;
-  border-radius: 2em;
-  margin-top: 1em;
-  border: none;
+    background-color: #51895d;
+    color: white;
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: 1em;
+    border: none;
 }
 
 .article-button:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
