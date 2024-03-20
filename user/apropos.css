@@ -20,6 +20,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px; /* Espacement entre les paires d'images */
+    margin-top: 50px;
 }
 
 .image {
@@ -28,8 +29,22 @@
 
 .image:last-child {
     margin-right: 0; /* Pour supprimer la marge à droite de la dernière image */
-}
+    margin-top: auto;
+}   
 
 .image img {
     max-width: 100%; /* Pour s'assurer que les images ne dépassent pas de leur conteneur */
+    margin-top: 80px;
+    padding: 60px;
+}
+
+.image h3{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.image p {
+    font-size: xx-large;
+    text-align: center;
 }
