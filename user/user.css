@@ -292,3 +292,29 @@ header label span:last-child {
     font-size: 1.5em;
   }
 }
+
+@media screen and (max-width: 760px) {
+  .navbar {
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar-footer {
+    flex-direction: row;
+    padding: 0;
+    margin: 2em 0 2em 0;
+  }
+
+  .footer-frame .border-frame {
+    margin-bottom: 2em;
+  }
+
+  .coords {
+    padding: 0;
+    margin: 2em 0 2em 0;
+  }
+}
