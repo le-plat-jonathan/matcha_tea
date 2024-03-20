@@ -59,3 +59,26 @@ h2 {
 .article-button:hover {
   cursor: pointer;
 }
+
+/****************************************************** Media querries *****************************************************/
+
+@media screen and (max-width: 480px) {
+
+    article {
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .vitrine {
+        width: 90%;
+        margin: 0;
+    }
+
+    .main-display {
+        width: 100%;
+    }
+
+    .images-article {
+        width: 100%;
+    }
+}
