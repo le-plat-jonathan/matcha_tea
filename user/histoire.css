@@ -29,7 +29,6 @@ article {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    opacity: 0.8;
     overflow: scroll; 
     scrollbar-width: none;
     padding: 20px; 
@@ -47,7 +46,7 @@ article {
 /* Modification du style de la balise <h2> pour chaque contenu */
 .contenu > h2 {
     font-family: "Rubik Dirt", system-ui;
-    color: #51895d; 
+    color: #E0CDA9; 
     margin-bottom: 10px; 
     font-weight: 500;
 }
@@ -76,6 +75,7 @@ div {
     flex-direction: row;
     justify-content: center;
     padding-top: 3em;
+    
 }
 
 
@@ -107,5 +107,18 @@ div {
         flex-direction: column;
     }
 
+    div {
+        flex-direction: column;
+        gap:2em;
+        padding-top: 0;
+    }
+
+    .contenu {
+        width:100%;
+    }
+
+    .video-container {
+        display:none;
+    }
 }
 
