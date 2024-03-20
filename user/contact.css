@@ -66,7 +66,7 @@ option {
   color: white;
 }
 
-.formulaire .right form input{
+.formulaire .right form input {
   background-color: rgb(176, 176, 176);
   border: none;
   border-bottom: 0.1em white solid;
@@ -115,7 +115,26 @@ option {
 .main-display {
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 100vw;
 }
 
+@media screen and (max-width: 480px) {
+  .formulaire {
+    flex-direction: column;
+    height: auto;
+  }
 
+  .formulaire .left {
+    margin: 5em 0 5em 0;
+    width: 70%;
+    text-align: justify;
+  }
+
+  .formulaire .right {
+    margin: 0 0 5em 0;
+  }
+
+  .formulaire .hr {
+    display: none;
+  }
+}

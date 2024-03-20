@@ -135,160 +135,160 @@ ul {
 }
 
 #burger-checkbox {
-    display: none;
+  display: none;
 }
 
 header label {
-    display: none;
+  display: none;
 }
 
 header label span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
-    width: 35px;
-    height: 6px;
-    background-color: white;
-    transition: all .3s linear;
-    opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 35px;
+  height: 6px;
+  background-color: white;
+  transition: all 0.3s linear;
+  opacity: 1;
 }
 
 header label span:first-child {
-    transform: translate(-50%, -15px) rotate(0deg);
+  transform: translate(-50%, -15px) rotate(0deg);
 }
 
 header label span:last-child {
-    transform: translate(-50%, 10px) rotate(0deg);
+  transform: translate(-50%, 10px) rotate(0deg);
 }
 
 #burger-checkbox:checked ~ label span:first-child {
-    transform: translate(-18px, -2px) rotate(45deg);
+  transform: translate(-18px, -2px) rotate(45deg);
 }
 
 #burger-checkbox:checked ~ label span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 #burger-checkbox:checked ~ label span:last-child {
-    transform: translate(-18px, -2px) rotate(-45deg);
+  transform: translate(-18px, -2px) rotate(-45deg);
 }
 
 .menu-wrapper {
-    position: fixed;
-    top: 0;
-    left: -102%;
-    width: 400px;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    justify-content: center;
-    align-items: center;
-    background:#51895d;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    z-index: 10;
+  position: fixed;
+  top: 0;
+  left: -102%;
+  width: 400px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  align-items: center;
+  background: #51895d;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 
 #burger-checkbox:checked ~ .menu-wrapper {
-    left: 0;
+  left: 0;
 }
 
-nav a {
-    display: block;
-    padding: 1rem 0;
-    color: white;
-    font-family: monospace;
-    text-decoration: none;
-    transition: all .2s ease-in-out;
+.nav-wrapper a {
+  display: block;
+  padding: 1rem 0;
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 /****************************************************** Media querries *****************************************************/
 
 @media screen and (max-width: 480px) {
-    header {
-        justify-content: center;
-        background-color: #51895d;
-        height: 9vh;
-    }
+  header {
+    justify-content: center;
+    background-color: #51895d;
+    height: 9vh;
+  }
 
-    .navbar-footer {
-        padding-left: 0;
-    }
+  .navbar-footer {
+    padding-left: 0;
+  }
 
-    .coords {
-        padding-right: 0;
-    }
+  .coords {
+    padding-right: 0;
+  }
 
-    .navbar {
-        display: none;
-    }
+  .navbar {
+    display: none;
+  }
 
-    .home {
-        flex-direction: column;
-    }
+  .home {
+    flex-direction: column;
+  }
 
-    .navbar a {
-        transform: none;
-    }
+  .navbar a {
+    transform: none;
+  }
 
-    article {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-        height: 100%;
-        padding-bottom: 2em;
-    }
+  article {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+    padding-bottom: 2em;
+  }
 
-    .navbar-footer {
-        display: none;
-    }
+  .navbar-footer {
+    display: none;
+  }
 
-    .border-frame {
-        border: none;
-        padding: 0;
-        gap: 0.5em;
-        margin-top: 0;
-    }
+  .border-frame {
+    border: none;
+    padding: 0;
+    gap: 0.5em;
+    margin-top: 0;
+  }
 
-    footer {
-        gap: 0.5em;
-        flex-direction: column;
-        height: auto;
-        padding: 0.5em;
-        background-color: #51895d;
-        color: white;
-    }
+  footer {
+    gap: 0.5em;
+    flex-direction: column;
+    height: auto;
+    padding: 0.5em;
+    background-color: #51895d;
+    color: white;
+  }
 
-    h3 {
-        display: none;
-    }
+  h3 {
+    display: none;
+  }
 
-    .logo_matcha_tea {
-      display: none;
-    }
+  .logo_matcha_tea {
+    display: none;
+  }
 
-    h1 {
-      color: white;
-      font-family: "Rubik Dirt", system-ui;
-      font-weight: 500;
-    }
+  h1 {
+    color: white;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 500;
+  }
 
-    header label {
-      position: fixed;
-      display: block;
-      right: 10px;
-      width: 15vw;
-      height: 7vh;
-      background-color: #51895d;
-      cursor: pointer;
-      border-radius: 50%;
-      z-index: 999;
-      transition: all .2s ease-in;
-    }
+  header label {
+    position: fixed;
+    display: block;
+    right: 10px;
+    width: 15vw;
+    height: 7vh;
+    background-color: #51895d;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 999;
+    transition: all 0.2s ease-in;
+  }
 
-    .wrapper-a {
-      font-size: 1.5em;
-    }
+  .wrapper-a {
+    font-size: 1.5em;
+  }
 }
