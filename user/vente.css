@@ -12,7 +12,7 @@ article {
   background-color: black;
   overflow: scroll;
   scrollbar-width: none;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav a {
@@ -20,9 +20,9 @@ nav a {
 }
 
 .images-article {
-  margin: 1em;
-  height: calc(100% / 2 - 2em);
-  width: calc(100% / 5);
+  margin: 1em 0.5em;
+  height: 50vh;
+  width: 25vw;
   object-fit: cover;
 }
 

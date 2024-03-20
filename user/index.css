@@ -9,7 +9,7 @@ article {
     background-color: black;
     overflow: scroll;
     scrollbar-width: none;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .images-article {
