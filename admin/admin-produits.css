@@ -112,4 +112,9 @@ button:hover {
   .main-display .wrapper .product .wrapperButton {
     display: none;
   }
+
+  .button-admin {
+    display: none;
+  }
+  
 }
