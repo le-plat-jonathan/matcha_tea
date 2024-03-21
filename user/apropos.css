@@ -1,0 +1,96 @@
+/* importation des différents fonts via google */
+
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Rubik+Dirt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
+
+
+/* styles pour le contenu principal */
+
+.home {
+    display: flex;
+}
+.main-display {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+
+}
+
+/* partie section h2*/
+
+.team-section {
+  color: #51895d;
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 300;
+  text-align:center;
+  background-color: #E0CDA9;
+}
+
+.team-section h2 {
+  margin-right: 10vw;
+  padding-top: 1em;
+  
+}
+
+/* styles pour arrangement grid photos membres */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+  align-items: center;
+  background-color: #E0CDA9;
+  height: 50vh;
+  padding: 1.5em;
+  overflow: scroll;
+  scrollbar-width: none;
+  }
+  
+  .team-member figure {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 70%; 
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  figcaption {
+    margin-top: 10px; 
+    font-family: "Rubik Dirt", system-ui;
+    color: #51895d;
+  }
+  
+
+
+
+/* zone avec les media queries */
+
+
+@media screen and (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding: 1em
+  }
+
+  .main-display {
+    width:auto;
+  }
+
+  .team-member img {
+    border-radius: 0%;
+  }
+
+
+}
