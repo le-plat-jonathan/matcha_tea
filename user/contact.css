@@ -119,11 +119,9 @@ option {
 }
 
 @media screen and (max-width: 480px) {
-
   .formulaire {
     justify-content: center;
-    flex-direction: column;
-    height: 63vh;
+    height: 90vh;
   }
 
   .formulaire .left {
@@ -147,5 +145,4 @@ option {
   select {
     width: 100%;
   }
-
 }
