@@ -52,8 +52,10 @@
     text-align: center;
   }
   
-  .team-member img {
-    width: 70%; 
+  .team-member figure img {
+    height: 20em;
+    object-position: top;
+    width: 20em;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -72,14 +74,16 @@
 
 @media screen and (max-width: 768px) {
   .team-grid {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 
 }
 
 @media screen and (max-width: 480px) {
   .team-grid {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     height: auto;
     padding: 1em
   }
