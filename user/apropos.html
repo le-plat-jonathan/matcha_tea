@@ -16,9 +16,37 @@
 <body>
     <!--début header + navbar avec logo entreprise-->
     <header>
-        <img class="logo_matcha_tea" src="../images/logo_matcha_tea.png" alt="logo_matcha_tea">
+        <a href="index.html"
+        ><img class="logo_matcha_tea" src="../images/logo_matcha_tea.png"
+        /></a>
         <h1>Matcha Tea</h1>
-        <img class="logo_matcha_tea" src="../images/logo_matcha_tea.png" alt="logo_matcha_tea">
+        <a href="../client/profil.html">
+            <img class="logo_matcha_tea" src="../images/logo_matcha_tea.png"/>
+        </a>
+
+    <!--------------------------------------------------------- début burger menu ------------------------------------------------------>
+
+        <input type="checkbox" id="burger-checkbox">
+        <label for="burger-checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="menu-wrapper">
+          <nav>
+            <ul>
+                <a class="wrapper-a" href="index.html">Accueil</a>
+                <a class="wrapper-a" href="vente.html">Ventes</a>
+                <a class="wrapper-a" href="histoire.html">Histoire</a>
+                <a class="wrapper-a" href="apropos.html">À propos</a>
+                <a class="wrapper-a" href="contact.html">Contact</a>
+                <a class="wrapper-a" href="../client/profil.html">Profil (client)</a>
+                <a class="wrapper-a" href="../admin/admin-produits.html">Produits (Admin)</a>
+            </ul>
+          </nav>
+        </div>
+
+    <!--------------------------------------------------------- fin burger menu ------------------------------------------------------>
     </header>
     <main class="home">
         <aside class="navbar">
