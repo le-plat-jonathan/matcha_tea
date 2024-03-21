@@ -59,7 +59,7 @@ article .card .productCommande {
   display: flex;
   justify-content: space-between;
   margin: 1em;
-  height: 50%;
+  height: calc(100% / 3 - 2em);
 }
 
 article .card .description {
@@ -75,7 +75,7 @@ article .card .description {
 
 article .card .description .wrapperButton {
   display: flex;
-  justify-content: space;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   color: white;
@@ -128,6 +128,47 @@ article .card .description a button:hover {
     height: auto;
   }
 
+  article .card .headerProductCommande {
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+
+  article .card .headerProductCommande .left {
+    margin-bottom: 2em;
+    width: 100%;
+  }
+
+  article .card .headerProductCommande .right {
+    align-items: center;
+    margin: 0;
+  }
+
+  article .card .headerProductCommande .right p {
+    text-align: center;
+  }
+
+  article .card .productCommande {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 1em;
+    height: 50%;
+  }
+
+  article .card .description {
+    padding: 0;
+  }
+
+  article .card .description .wrapperButton {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    width: 100%;
+    color: white;
+  }
+
   .vitrine {
     width: 90%;
     margin: 0;
@@ -138,6 +179,6 @@ article .card .description a button:hover {
   }
 
   .images-article {
-    width: 90%;
+    width: 100%;
   }
 }
