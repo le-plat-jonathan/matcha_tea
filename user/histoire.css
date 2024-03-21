@@ -41,6 +41,7 @@ article {
     flex-direction: column; 
     justify-content: flex-start; 
     backdrop-filter: brightness(80%);
+    align-items: center;
 }
 
 /* Modification du style de la balise <h2> pour chaque contenu */
@@ -66,6 +67,7 @@ article {
     font-size: 0.9em; 
     text-align: justify; 
     line-height: 1.6; 
+    text-align: center;
 }
 
 /* style div qui contient les sections précédentes ainsi que le .video-container pour permettre de placer la video sous les contenus textes */
@@ -114,11 +116,14 @@ div {
     }
 
     .contenu {
-        width:100%;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
 
     .video-container {
         display:none;
     }
+    
 }
 

@@ -10,18 +10,13 @@ article {
   background-color: rgb(176, 176, 176);
 }
 
-article .divImg img {
-  height: 10em;
-  width: 10em;
-}
-
 form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 50%;
   background-color: inherit;
+  gap: 2em;
 }
 
 form div {
