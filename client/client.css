@@ -126,6 +126,24 @@ a {
   font-family: "Play", sans-serif;
 }
 
+.password {
+  color: black;
+  padding-bottom: 1em;
+  user-select: none;
+}
+
+.hide-button {
+  user-select: none;
+}
+
+#hide-password {
+  display: none;
+}
+
+#hide-password:checked ~ .password {
+  color: white;
+}
+
 /*********************************************************** burger menu ******************************************************/
 
 ul {
