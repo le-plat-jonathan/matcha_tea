@@ -9,9 +9,36 @@
   </head>
   <body>
     <header>
-        <img class="logo_matcha_tea" src="../images/logo_matcha_tea.png">
+        <a href="../user/index.html"
+        ><img class="logo_matcha_tea" src="../images/logo_matcha_tea.png"
+        /></a>
         <h1>Matcha Tea</h1>
-        <button class="button-admin">Compte administrateurs</button>
+        <a href="../client/profil.html"><button class="button-admin">Compte client</button></a>
+
+    <!--------------------------------------------------------- burger menu ------------------------------------------------------>
+
+      <input type="checkbox" id="burger-checkbox">
+      <label for="burger-checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="menu-wrapper">
+        <nav>
+          <ul>
+              <a class="wrapper-a" href="../user/index.html">Accueil</a>
+              <a class="wrapper-a" href="../user/vente.html">Ventes</a>
+              <a class="wrapper-a" href="../user/histoire.html">Histoire</a>
+              <a class="wrapper-a" href="../user/apropos.html">À propos</a>
+              <a class="wrapper-a" href="../user/contact.html">Contact</a>
+              <a class="wrapper-a" href="../client/profil.html">Profil (client)</a>
+              <a class="wrapper-a" href="../admin/admin-produits.html">Produits (Admin)</a>
+          </ul>
+        </nav>
+      </div>
+
+    <!--------------------------------------------------------- fin burger menu ------------------------------------------------------>
+
     </header>
     <main class="home">
         <nav class="navbar">

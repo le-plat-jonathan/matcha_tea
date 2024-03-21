@@ -126,6 +126,23 @@ a {
   font-family: "Play", sans-serif;
 }
 
+.button-admin {
+  margin-right: 1em;
+  border: 0.1em solid #51895d;
+  border-radius: 2em;
+  background-color: #ffffff;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.button-admin:hover {
+  cursor: pointer;
+  background-color: #51895d;
+  color: white;
+  border: 0.1em solid #ffffff;
+}
+
 /*********************************************************** burger menu ******************************************************/
 
 ul {
@@ -361,8 +378,8 @@ a {
     position: fixed;
     display: block;
     right: 10px;
-    width: 15vw;
-    height: 7vh;
+    width: 4em;
+    height: 4em;
     background-color: #51895d;
     cursor: pointer;
     border-radius: 50%;
