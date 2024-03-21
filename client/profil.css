@@ -29,3 +29,36 @@ article div {
   flex-direction: column;
   width: 90vw;
 }
+
+
+/****************************************************** Media querries *****************************************************/
+
+@media screen and (max-width: 480px) {
+
+  article {
+      flex-wrap: nowrap;
+      height: 60vh;
+  }
+
+  .vitrine {
+      width: 90%;
+      margin: 0;
+  }
+
+  .main-display {
+      width: 100%;
+  }
+
+  .images-article {
+      width: 100%;
+  }
+
+  h3 {
+    display: block;
+    columns: white;
+  }
+
+  footer {
+    height: 31vh;
+  }
+}
