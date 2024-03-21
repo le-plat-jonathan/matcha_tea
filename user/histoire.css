@@ -75,6 +75,7 @@ div {
     flex-direction: row;
     justify-content: center;
     padding-top: 3em;
+    align-items: center;
     
 }
 
@@ -114,11 +115,14 @@ div {
     }
 
     .contenu {
-        width:100%;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
 
     .video-container {
         display:none;
     }
+    
 }
 
