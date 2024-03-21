@@ -47,7 +47,7 @@ h1 {
 }
 
 footer {
-  height: 25vh;
+  height: 35%;
   display: flex;
   justify-content: space-between;
 }
