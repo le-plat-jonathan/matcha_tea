@@ -19,16 +19,16 @@ nav a {
   font-family: "Play", sans-serif;
 }
 
-article .card {
+article .cardVentes {
   margin: 1em 0.5em 0.5em 0.5em;
   width: calc(100% / 3 - 1.5em);
-  height: 100%;
+  height: calc(100% - 2em);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-article .card .description {
+article .cardVentes .description {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,18 +37,18 @@ article .card .description {
   color: white;
 }
 
-article .card .description .title {
+article .cardVentes .description .title {
   margin-bottom: 0.5em;
 }
 
-article .card .description a {
+article .cardVentes .description a {
   display: flex;
   justify-content: center;
   width: 150%;
   text-decoration: none;
 }
 
-article .card .description a button {
+article .cardVentes .description a button {
   height: 3em;
   width: 80%;
   background-color: #51895d;
@@ -57,13 +57,13 @@ article .card .description a button {
   border: none;
 }
 
-article .card .description a button:hover {
+article .cardVentes .description a button:hover {
   cursor: pointer;
 }
 
-.images-article {
+.images-ventes {
   height: 75%;
-  width: 75%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -82,6 +82,11 @@ article .card .description a button:hover {
     height: auto;
   }
 
+  article .cardVentes {
+    width: calc(100% - 1.5em);
+    height: calc(100% - 2em);
+  }
+
   .vitrine {
     width: 90%;
     margin: 0;
@@ -91,7 +96,7 @@ article .card .description a button:hover {
     width: 100%;
   }
 
-  .images-article {
+  .images-ventes {
     width: 90%;
   }
 }
