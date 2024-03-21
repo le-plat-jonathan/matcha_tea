@@ -20,34 +20,83 @@ nav a {
 }
 
 article .card {
+  display: flex;
+  flex-direction: column;
   margin: 1em 0.5em 0.5em 0.5em;
-  width: calc(100% / 3 - 1.5em);
-  height: 100%;
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+  background-color: #e0cda9;
+}
+
+article .card .headerProductCommande {
+  color: #fff;
+  border: solid 0.1em #51895d;
+  margin: 1em;
+  height: calc(100% / 4 - 1em);
+}
+
+article .card .headerProductCommande .left {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+article .card .headerProductCommande .right {
+  margin-right: 2em;
+}
+
+article .card .headerProductCommande .right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+article .card .headerProductCommande .right a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+article .card .productCommande {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  height: 50%;
 }
 
 article .card .description {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
+  padding-left: 2em;
   height: 8em;
+  width: 100%;
+  color: white;
+}
+
+article .card .description .wrapperButton {
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  width: 100%;
   color: white;
 }
 
 article .card .description .title {
   margin-bottom: 0.5em;
+  color: #fff;
 }
 
 article .card .description a {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: start;
+  width: 30%;
+  margin-right: 2em;
   text-decoration: none;
 }
 
 article .card .description a button {
-  height: 3em;
-  width: 80%;
+  height: 2.5em;
+  width: 100%;
   background-color: #51895d;
   color: white;
   text-decoration: none;
@@ -59,8 +108,8 @@ article .card .description a button:hover {
 }
 
 .images-article {
-  height: 70%;
-  width: 100%;
+  height: 90%;
+  width: 20%;
   object-fit: cover;
 }
 
