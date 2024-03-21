@@ -67,7 +67,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 1em;
-  padding-left: 5em;
+  padding: 1em 0 0 4em;
 }
 
 .border-frame {
@@ -260,7 +260,7 @@ header label span:last-child {
     color: white;
   }
 
-  h3 {
+  .coords-title {
     display: none;
   }
 
