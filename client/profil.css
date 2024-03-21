@@ -7,40 +7,16 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(176, 176, 176);
+  color: white;
+  background-color: black;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: inherit;
-  gap: 2em;
-}
-
-form div {
+article div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40%;
-}
-
-form div label {
-  color: white;
-}
-
-form div input {
-  border: none;
-  border-bottom: 0.1em white solid;
-  padding: 1em;
-  text-align: center;
-  background-color: inherit;
-}
-
-form div input::placeholder {
-  color: black;
+  height: 20%;
 }
 
 .home {
