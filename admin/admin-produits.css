@@ -45,15 +45,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 3em;
   margin: 1em 2em 1em 2em;
   padding: 0 2em 0 2em;
+  width: 95%;
   background-color: #e0cda9;
 }
 
 .main-display .wrapper .product img {
   height: 8em;
   width: 8em;
+  margin: 1em;
 }
 
 .main-display .wrapper .product .details {
