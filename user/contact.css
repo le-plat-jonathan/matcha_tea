@@ -32,6 +32,7 @@
   position: absolute;
   left: 0;
   right: -1600%;
+  width: 20vw;
   top: 50%;
   border-top: 4px solid white;
   transform: translate(-50%, -50%) rotate(90deg);
