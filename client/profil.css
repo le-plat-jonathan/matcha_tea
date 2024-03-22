@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ojuju:wght@200..800&family=Oleo+Script+Swash+Caps:wght@400;700&family=Play:wght@400;700&family=Rubik+Dirt&display=swap");
 
 article {
-  height: 65vh;
+  border-left: 3px solid white;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: black;
+  background-color: #51895d;
 }
 
 article div {
@@ -28,6 +29,25 @@ article div {
   justify-content: space-between;
   flex-direction: column;
   width: 90vw;
+}
+
+
+.password {
+  color: #51895d;
+  padding-bottom: 1em;
+  user-select: none;
+}
+
+.hide-button {
+  user-select: none;
+}
+
+#hide-password {
+  display: none;
+}
+
+#hide-password:checked ~ .password {
+  color: white;
 }
 
 /****************************************************** Media querries *****************************************************/

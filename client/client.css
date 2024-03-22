@@ -47,7 +47,6 @@ h1 {
 }
 
 footer {
-  height: 30%;
   display: flex;
   justify-content: space-between;
 }
@@ -124,24 +123,6 @@ h3 {
 p,
 a {
   font-family: "Play", sans-serif;
-}
-
-.password {
-  color: black;
-  padding-bottom: 1em;
-  user-select: none;
-}
-
-.hide-button {
-  user-select: none;
-}
-
-#hide-password {
-  display: none;
-}
-
-#hide-password:checked ~ .password {
-  color: white;
 }
 
 .button-admin {

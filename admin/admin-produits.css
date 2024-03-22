@@ -112,12 +112,39 @@ button:hover {
     width: 100%;
   }
 
-  .main-display .wrapper .product .wrapperButton {
-    display: none;
-  }
-
   .button-admin {
     display: none;
   }
   
+  .main-display .wrapper {
+    height: auto;
+    overflow: visible;
+  }
+
+  .main-display .wrapper .product .details {
+    margin: 0;
+  }
+  
+  .main-display .wrapper .product .details p {
+    height: auto;
+    text-align: center;
+  }
+
+  .main-display .wrapper .product {
+    flex-direction: column;
+    padding: 1em;
+
+  }
+
+  .main-display .wrapper .product img {
+    height: 50vh;
+    width: 80vw;
+  }
+
+  .main-display .wrapper .product .wrapperButton {
+    height: auto;
+    gap: 0.5em;
+    padding-top: 1em;
+  }
+
 }
